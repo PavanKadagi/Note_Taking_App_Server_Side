@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 
 app.use(express.json())
 app.use(cors({
-    origin:["http://localhost:3000","https://note-taking-app-server-su0d.onrender.com"],
+    origin:["http://localhost:3000","https://note-taking-app-k0bw.onrender.com"],
     optionsSuccessStatus: 200,
    credentials:true,
    methods:["GET","PUT","PATCH","POST","DELETE","OPTIONS"],
