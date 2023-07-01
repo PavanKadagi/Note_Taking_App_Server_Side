@@ -9,7 +9,7 @@ console.log(process.env.CLIENT)
 
 app.use(express.json())
 app.use(cors({
-    origin:["http://localhost:3000",process.env.CLIENT]
+    origin:["http://localhost:3000",process.env.CLIENT,"https://note-taking-app-server-su0d.onrender.com"]
 }))
 app.use(require('./routes/user'))
 
